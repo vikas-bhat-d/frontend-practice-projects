@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Poppins;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 236, 236);
+}
+.profile-card{
+    background-color: white;
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.196);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.upper-part{
+    background-color: rgb(50, 96, 222);
+    display: flex;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    justify-content: center;
+}
+.lower-part{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+.profile-picture{
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    bottom: -20px;
+    border-radius: 50%;
+    background-color: rgb(50, 96, 222);
+    padding: 3px;
+}
+.profile-picture .picture{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border:3px solid white;
+    border-radius: 50%;  
+}
+
+.profile-card .basic-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.basic-info .name{
+    font-weight:500;
+    font-size: 17px;
+    color: black;
+}
+
+.basic-info .status{
+    font-weight:400;
+    font-size: 15px;
+    color: rgb(80, 79, 79);
+}
+
+.profile-card .links{
+    /* background-color: lightblue; */
+    display: flex;
+    width:50%;
+    min-width: 130px;
+    justify-content: space-between;
+}
+
+.links a{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.564);
+}
+
+.icon{
+    height: 18px;
+}
+
+.facebook {
+    background-color: rgb(33, 98, 239);
+}
+
+.twitter{
+    background-color:rgb(0, 0, 0);
+}
+
+.insta{
+    background-color: rgb(216, 0, 50);
+}
+
+.linked-in{
+    background-color: rgb(86, 107, 243);
+}
+
+.twitter .icon{
+    height: 15px;
+}
+.linked-in .icon{
+    height: 20px;
+}
+
+.contact{
+    display: flex;
+    min-width: 206px;
+    width: 70%;
+    justify-content:space-between;
+    align-items: center;
+    padding: 3px 0px;
+    margin-top: 15px;
+}
+
+.contact a{
+    width: 103px;
+    display: flex;
+    border-radius: 15px;
+    background-color: rgb(50, 96, 222);
+    justify-content: center;
+    align-items: center;
+    padding:3px 0px;
+}
+a span{
+    font-size: 15px;
+    color:rgb(229, 229, 229);
+}
+
+.post-info{
+    display: flex;
+    width: 60%;
+    min-width:150px ;
+    background-color: rgba(181, 181, 181, 0.777);
+    justify-content: space-between;
+    align-items: center;
+    height: 18px;
+    margin-top: 20px;
+}
+
+.post-info div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background-color:rgb(255, 255, 255);
+}
+
+.like,.comments{
+    margin-right: 2.5px;
+}
+.post-info span{
+    font-size: 12px;
+}
+
+.post-info img{
+    height: 18px;    
+}
+
+
